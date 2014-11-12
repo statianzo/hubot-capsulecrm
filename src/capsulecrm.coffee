@@ -1,11 +1,11 @@
 # Description:
-#   Display stats from New Relic
+#   Display stats from Capsule CRM
 #
 # Dependencies:
 #
 # Configuration:
-#   HUBOT_CAPSULE_API_KEY
-#   HUBOT_CAPSULE_API_HOST
+#   HUBOT_CAPSULECRM_API_KEY
+#   HUBOT_CAPSULECRM_API_HOST
 #
 # Commands:
 #   hubot capsule users - Returns a list of Capsule users
@@ -15,8 +15,8 @@
 #
 
 module.exports = plugin = (robot) ->
-  apiKey = process.env.HUBOT_CAPSULE_API_KEY
-  apiHost = process.env.HUBOT_CAPSULE_API_HOST
+  apiKey = process.env.HUBOT_CAPSULECRM_API_KEY
+  apiHost = process.env.HUBOT_CAPSULECRM_API_HOST
   apiBaseUrl = "https://#{apiHost}/api/"
   config = {}
 
