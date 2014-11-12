@@ -1,5 +1,5 @@
 {
-  "name": "hubot-capsule",
+  "name": "hubot-capsulecrm",
   "description": "Capsule CRM plugin for hubot",
   "version": "0.1.0",
   "author": "Jason Staten <jstaten07@gmail.com>",
@@ -10,10 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/statianzo/hubot-capsule.git"
+    "url": "https://github.com/statianzo/hubot-capsulecrm.git"
   },
   "bugs": {
-    "url": "https://github.com/statianzo/hubot-capsule/issues"
+    "url": "https://github.com/statianzo/hubot-capsulecrm/issues"
   },
   "dependencies": {
     "coffee-script": "^1.8.0"
