@@ -25,7 +25,6 @@ module.exports = plugin = (robot) ->
       .header('Accept', 'application/json')
       .auth(apiKey, 'x')
       .get() (err, res, body) ->
-        console.log body, res, err
         if err
           cb(err)
         else
